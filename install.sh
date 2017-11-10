@@ -27,7 +27,7 @@ exit 4
 fi
 
 fixit () {
-curl -s http://mirror.skamasle.com/vestacp/PHP/sk-php${1}-centos.sh > /usr/local/vesta/data/templates/web/httpd/sk-php${1}.sh
+curl -s https://raw.githubusercontent.com/louislam/vestacp-php-selector/master/scripts/sk-php${1}-centos.sh > /usr/local/vesta/data/templates/web/httpd/sk-php${1}.sh
 
 ln -s /usr/local/vesta/data/templates/web/httpd/phpfcgid.stpl /usr/local/vesta/data/templates/web/httpd/sk-php${1}.stpl
 

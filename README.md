@@ -7,7 +7,7 @@ RUN AT YOUR OWN RISK
 ## Install
 
 ```
-wget -O - https://raw.githubusercontent.com/louislam/vesta-php-selector/master/sk-php-selector.sh | bash
+wget -O - https://raw.githubusercontent.com/louislam/vesta-php-selector/master/install.sh | bash
 ```
 
 ## Description
